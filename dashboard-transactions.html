@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Toko Online</title>
+  </head>
+  <body>
+      <div class="page-dashboard">
+          <div class="d-flex" id="wrapper" data-aos="fade-right">
+              <div class="border-right" id="sidebar-wrapper">
+                  <div class="sidebar-heading text-center">
+                      <img src="images/dashboard-store-logo.svg" alt="" class="my-4">
+                  </div> 
+                  <div class="list-group list-group-flush">
+                    <a href="dashboard.html" class="list-group-item list-group-action ">Dashboard</a>
+                    <a href="dashboard-product.html" class="list-group-item list-group-action">My Products</a>
+                    <a href="dashboard-transactions.html" class="list-group-item list-group-action active">Transactions</a>
+                    <a href="dashboard-settings.html" class="list-group-item list-group-action">Setting</a>
+                    <a href="dashboard-account.html" class="list-group-item list-group-action">Account</a>
+                    <a href="index.html" class="list-group-item list-group-action">Sign Out</a>
+                  </div>
+              </div>
+
+              <div id="page-content-wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top" data-aos="fade-down">
+                  <div class="container-fluid">
+                    <button class="btn btn-secondary d-md-none mr-auto mr-2" id="menu-toggle">&laquo; Menu</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                          <span class="navbar-toggle-icon"></span>
+                      </button>
+                      
+                      
+                      <!-- DESKTOP -->   
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav d-none d-lg-flex ml-auto">
+                              <li class="nav-item dropdown">
+                                  <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                      <img src="images/download.jpg" alt="" class="rounded-circle mr-2 profile-picture">
+                                      Halo, bayu
+                                  </a>
+                                  <div class="dropdown-menu">
+                                      <a href="dashboard.html" class="dropdown-item">Dashboard</a>
+                                      <a href="dashboard-account.html" class="dropdown-item">Settings</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a href="/" class="dropdown-item">Logout</a>
+                                  </div>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link d-line-block-mt-2">
+                                      <img src="images/icon_cart.svg" alt="">
+                                      <div class="cart-badge">3</div>
+                                  </a>
+                              </li>
+                          </ul>
+          
+                          <!-- Mobile Menu -->
+                          <ul class="navbar-nav d-block d-lg-none">
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link"> HI, bayu</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link d-inline-block">Cart</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+
+
+              <!-- Section Content -->
+           <div class="section-content section-dashboard-home" data-aos="fade-up">
+            <div class="container-fluid">
+                <div class="dashboard-heading">
+                    <h2 class="dashboard-title">Transactions</h2>
+                    <p class="dashboard-subtitle">Big result start form the small one</p>
+                </div>
+                <div class="dashboard-content">
+                    <div class="row">
+                        <div class="col-12 mt-2">
+                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                             <li class="nav-item">
+                               <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Sell Product</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Buy Product</a>
+                             </li>
+                           </ul>
+                           <div class="tab-content" id="pills-tabContent">
+                             <div 
+                             class="tab-pane fade show active" 
+                             id="pills-home" role="tabpanel" 
+                             aria-labelledby="pills-home-tab"><a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                 <div class="card-body">
+                                     <div class="row">
+                                         <div class="col-md-1">
+                                             <img src="/images/dashboard-icon-product1.png" alt="">
+                                         </div>
+                                         <div class="col-md-4">DW Watch</div>
+                                         <div class="col-md-3">KIKI Oliviari Putri</div>
+                                         <div class="col-md-2">5 Januari, 2021</div>
+                                         <div class="col-md-1 d-none d-md-block">
+                                             <img src="/images/dashboard-arrow-right.svg" alt="">
+                                         </div>
+                                     </div>
+                                 </div>
+                             </a>
+                             <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                 <div class="card-body">
+                                     <div class="row">
+                                         <div class="col-md-1">
+                                             <img src="/images/dashboard-icon-product2.png" alt="">
+                                         </div>
+                                         <div class="col-md-4">Chanel Parfume</div>
+                                         <div class="col-md-3">Laura Choutte</div>
+                                         <div class="col-md-2">3 Januari, 2021</div>
+                                         <div class="col-md-1 d-none d-md-block">
+                                             <img src="/images/dashboard-arrow-right.svg" alt="">
+                                         </div>
+                                     </div>
+                                 </div>
+                             </a>
+                             <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                 <div class="card-body">
+                                     <div class="row">
+                                         <div class="col-md-1">
+                                             <img src="/images/dashboard-icon-product3.png" alt="">
+                                         </div>
+                                         <div class="col-md-4">YSL sling Bag</div>
+                                         <div class="col-md-3">Michael Dam</div>
+                                         <div class="col-md-2">3 Januari, 2021</div>
+                                         <div class="col-md-1 d-none d-md-block">
+                                             <img src="/images/dashboard-arrow-right.svg" alt="">
+                                         </div>
+                                     </div>
+                                 </div>
+                             </a></div>
+                             <div 
+                             class="tab-pane fade" 
+                             id="pills-profile" role="tabpanel" 
+                             aria-labelledby="pills-profile-tab">
+                             <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <img src="/images/dashboard-icon-product1.png" alt="">
+                                        </div>
+                                        <div class="col-md-4">DW Watch</div>
+                                        <div class="col-md-3">KIKI Oliviari Putri</div>
+                                        <div class="col-md-2">5 Januari, 2021</div>
+                                        <div class="col-md-1 d-none d-md-block">
+                                            <img src="/images/dashboard-arrow-right.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a></div>
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+ </div>
+</div>
+
+  <!-- Bootsrap core JavaScript-->
+  <script src="/libraries/jquery/jquery.slim.min.js"></script>
+  <script src="/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+</script>
+<script>
+    $("#menu-toggle").click(function (e){
+        e.preventDefault();
+        $("wrapper").toggleClass("toggled");
+    });
+</script>
+</body>
+</html>

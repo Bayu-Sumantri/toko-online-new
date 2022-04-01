@@ -1,0 +1,24 @@
+.page-test{
+    .row-login{
+        min-height: 70vh;
+    }
+
+    .section-store-test{
+        h2{
+            font-size: 28px;
+            color: #0c0d36;
+            font-weight: 200;
+            margin-top: 0;
+        }
+
+        .form-control{
+            background: #F3F3F3;
+            border-radius: 8px;
+        }
+
+        .btn-signup{
+            @include button-variant(#F3F3F3, transparent);
+            color: #bbbbbb;
+        }
+    }
+}
