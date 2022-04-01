@@ -20,11 +20,11 @@
                       <img src="images/dashboard-store-logo.svg" alt="" class="my-4">
                   </div> 
                   <div class="list-group list-group-flush">
-                    <a href="dashboard.html" class="list-group-item list-group-action">Dashboard</a>
+                    <a href="dashboard.html" class="list-group-item list-group-action ">dashboard</a>
                     <a href="dashboard-product.html" class="list-group-item list-group-action active">My Products</a>
                     <a href="dashboard-transactions.html" class="list-group-item list-group-action">Transactions</a>
-                    <a href="dashboard-settings.html" class="list-group-item list-group-action">Setting</a>
-                    <a href="dashboard-account.html" class="list-group-item list-group-action">Account</a>
+                    <a href="dashboard-settings.html" class="list-group-item list-group-action">Store Setting</a>
+                    <a href="dashboard-account.html" class="list-group-item list-group-action">My Account</a>
                     <a href="index.html" class="list-group-item list-group-action">Sign Out</a>
                   </div>
               </div>
@@ -43,8 +43,8 @@
                           <ul class="navbar-nav d-none d-lg-flex ml-auto">
                               <li class="nav-item dropdown">
                                   <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">
-                                      <img src="images/bayu.jpeg" alt="" class="rounded-circle mr-2 profile-picture">
-                                      Halo, bayu
+                                    <img src="images/bayu.jpeg" alt="" class="rounded-circle mr-2 profile-picture">
+                                    Hi, bayu
                                   </a>
                                   <div class="dropdown-menu">
                                       <a href="dashboard.html" class="dropdown-item">Dashboard</a>
@@ -75,113 +75,129 @@
               </nav>
 
 
-              <!--Section Mode-->
-              <div class="section-content section-dashboard-home">
-                  <div class="container-fluid">
-                      <div class="dashboard-heading">
-                          <h2 class="dashboard">Dashboard</h2>
-                          <p class="dashboard-subtitle">Look what you made today</p>
-                      </div>
-                      <div class="dashboard-content">
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <div class="card mb-2">
-                                      <div class="card-body">
-                                          <div class="dashboard-card-title">Customer</div>
-                                          <div class="dashboard-card-subtitle">16,309</div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4">
-                                <div class="card mb-2">
-                                    <div class="card-body">
-                                        <div class="dashboard-card-title">Revenue</div>
-                                        <div class="dashboard-card-subtitle">$892,392</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-2">
-                                    <div class="card-body">
-                                        <div class="dashboard-card-title">Transaction</div>
-                                        <div class="dashboard-card-subtitle">25,202,229</div>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
-
-                          <div class="row mt-3">
-                              <div class="col-12 mt-2">
-                                  <h5 class="mb-3">Recent Transaction</h5>
-                                  
-                                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-1">
-                                                <img src="images/dashboard-icon-product1.png" alt="">
-                                            </div>
-                                            <div class="col-md-4">Dw Watch</div>
-                                            <div class="col-md-3">KIKI Oliviari Putri</div>
-                                            <div class="col-md-2">5 Januari, 2021</div>
-                                            <div class="col-md-1 d-none d-md-block">
-                                                <img src="images/dashboard-arrow-right.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                  </a>
-
-                                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-1">
-                                                <img src="images/dashboard-icon-product2.png" alt="">
-                                            </div>
-                                            <div class="col-md-4">Chanel Parfume</div>
-                                            <div class="col-md-3">Laura Choutte</div>
-                                            <div class="col-md-2">3 Januari, 2021</div>
-                                            <div class="col-md-1 d-none d-md-block">
-                                                <img src="images/dashboard-arrow-right.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                  </a>
-
-                                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-1">
-                                                <img src="images/dashboard-icon-product3.png" alt="">
-                                            </div>
-                                            <div class="col-md-4">YSL Sing Bag</div>
-                                            <div class="col-md-3">Michael Dam</div>
-                                            <div class="col-md-2">3 Januari, 2021</div>
-                                            <div class="col-md-1 d-none d-md-block">
-                                                <img src="images/dashboard-arrow-right.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                  </a>
-
-                              </div>
-                          </div>
-                      </div>
+              <!-- Section Content -->
+              <div
+              class="section-content section-dashboard-home"
+              data-aos="fade-up"
+            >
+              <div class="container-fluid">
+                <div class="dashboard-heading">
+                  <h2 class="dashboard-title">My Products</h2>
+                  <p class="dashboard-subtitle">Manage it well and get money</p>
+                </div>
+                <div class="dashboard-content">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <a
+                        href="/dashboard-products-create.html"
+                        class="btn btn-success"
+                      >
+                        Add New Products
+                      </a>
+                    </div>
                   </div>
+                  <div class="row mt-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                      <a
+                        href="/dashboard-products-details.html"
+                        class="card card-dashboard-product d-block"
+                      >
+                        <div class="card-body">
+                          <img
+                            src="/images/product-card-1.png"
+                            alt=""
+                            class="w-100 mb-2"
+                          />
+                          <div class="product-title">DW Watch</div>
+                          <div class="product-category">Fashion</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                      <a
+                        href="/dashboard-products-details.html"
+                        class="card card-dashboard-product d-block"
+                      >
+                        <div class="card-body">
+                          <img src="/images/product-card-2.png" alt="" />
+                          <div class="product-title">Canon</div>
+                          <div class="product-category">Technology</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                      <a
+                        href="/dashboard-products-details.html"
+                        class="card card-dashboard-product d-block"
+                      >
+                        <div class="card-body">
+                          <img
+                            src="/images/product-card-3.png"
+                            alt=""
+                            class="w-100 mb-2"
+                          />
+                          <div class="product-title">Chanel Parfume</div>
+                          <div class="product-category">Fashion</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a
+                            href="/dashboard-products-details.html"
+                            class="card card-dashboard-product d-block"
+                          >
+                            <div class="row">
+                              <div class="card-body">
+                                <img
+                                  src="/images/product-card-4.png"
+                                  alt=""
+                                  class="w-100 mb-2"
+                                />
+                                <div class="product-title">Macbook Pro</div>
+                                <div class="product-category">Technology</div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a
+                            href="/dashboard-products-details.html"
+                            class="card card-dashboard-product d-block"
+                          >
+                            <div class="card-body">
+                              <img
+                                src="/images/product-card-5.png"
+                                alt=""
+                                class="w-100 mb-2"
+                              />
+                              <div class="product-title">Grey Sofa</div>
+                              <div class="product-category">Interior</div>
+                            </div>
+                          </a>
+                        </div>
+                  </div>
+                </div>
               </div>
-              </div>
+            </div>
           </div>
+          <!-- /#page-content-wrapper -->
+        </div>
       </div>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="libraries/jquery/jquery.slim.min.js"></script>
-    <script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script>
-        $("#menu-toggle").click(function (e){
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        })
-    </script>
-  </body>
+
+  <!-- Bootsrap core JavaScript-->
+  <script src="/libraries/jquery/jquery.slim.min.js"></script>
+  <script src="/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+</script>
+<script>
+    $("#menu-toggle").click(function (e){
+        e.preventDefault();
+        $("wrapper").toggleClass("toggled");
+    });
+</script>
+</body>
 </html>
